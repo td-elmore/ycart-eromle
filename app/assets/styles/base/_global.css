@@ -1,0 +1,13 @@
+$niceBlue: #2f5572;
+$dkGray: #222;
+
+
+body {
+    font-family: 'Nunito';
+    color: $dkGray;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
