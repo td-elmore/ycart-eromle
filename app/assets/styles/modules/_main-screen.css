@@ -1,18 +1,25 @@
 .main-screen {
     position: relative;
+    width: 100%;
+
+    &__categories {
+        position: absolute;
+        top: 50%;
+        left: 3%;
+        width: 97%;
+        transform: translateY(-50%);
+    }
+
+    &__category {
+        font-weight: 300;
+        margin: 0;
+    }
+    
+    &__description {
+        font-size: 1.1rem;    
+        font-style: italic;
+        margin: 0;
+    }
+    
 }
 
-.main-screen__text-categories {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    transform: translateY(-50%);
-}
-
-.main-screen__text-title {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-}

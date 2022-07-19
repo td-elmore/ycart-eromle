@@ -1,0 +1,19 @@
+.titleblock {
+    display: inline-block;
+    text-align: justify;
+    direction: rtl;
+    width: 97%;
+
+    &__title {
+        font-weight:bolder;
+        margin: 0;
+        padding-right: .8rem;
+    }
+    
+    &__summary {
+        font-weight: 300;
+        font-style: italic;
+        margin: 0;
+        padding-right: .8rem;
+    }    
+}

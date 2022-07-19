@@ -14,7 +14,13 @@ module.exports = {
         filename: 'bundled.js',
         path: path.resolve(__dirname, 'app')
     },
-    watch: true,
+    devServer: {
+        static: {
+            directory: path.join(__dirname, 'app'),
+        },
+        port: 3000,
+        host: '0.0.0.0'
+    },
     module: {
         rules: [
             {
