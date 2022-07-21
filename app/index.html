@@ -24,7 +24,7 @@
   </header>
 
   <div class="main-screen">    
-    <img class="scarf-img scarf-img__main-screen" srcset="assets/images/scarf-in-the-wind-640x305.png 640w, assets/images/scarf-in-the-wind-1024x489.png 1024w" alt="Blue and Purple scarf blowing in the wind.">
+    <img class="scarf-img scarf-img__top" srcset="assets/images/scarf-in-the-wind-640x305.png 640w, assets/images/scarf-in-the-wind-1024x489.png 1024w" alt="Blue and Purple scarf blowing in the wind.">
     <div class="titleblock">
       <h1 class="titleblock__title">Tracy Elmore</h1>
       <div class="decorative-line"></div>
@@ -41,49 +41,61 @@
           <h1 class="main-screen__category">Software Engineer</h1>
           <p class="main-screen__description">Before graduating from the University of California Berkeley with a Bachelor's in Computer Science, I began working for a small software company in Berkeley. This launched a career of over 10 years developing my skills and specialities as a Software Engineer.</p>
         </div>
-      </div>
-
-      
+      </div>      
   </div>
 
-  <div id="education-and-skills">
-    <img class="scarf-img" srcset="assets/images/scarf-in-the-wind-640x305.png 640w, assets/images/scarf-in-the-wind-1024x489.png 1024w" alt="Blue and Purple scarf blowing in the wind.">
-
-    <p>I am constantly keeping my skills fresh. Here are a few of the classes I've taken most recently.</p>
-    <img src="assets/images/git-icon-910x380.png">
-    <p>Git a Web Developer Job, Matering the Moder Workflow by Brad Schiff - a lot of information that illustrates how to make the best, fastest, most efficien responsive websites.</p>
-    <img src="assets/images/java-script-icon-512x512.png">
-    <p>JavaScript Algorithms and Data Structures by FreeCodeCamp - enjoyable set of exercises that can quickly get you up and running with JavaScript.</p>
-    <img src="assets/images/python-icon-50x65.png">
-    <p>Python Programming by Derek Banas - great way to get familiar with Python and practice syntax.</p>
-    <p>Learning new technologies, constantly acquiring new skills is the only way to do the Software Engineer job, here are the systems I most often use:</p>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Java</li>
-      <li>Android</li>
-      <li>Visual C</li>
-      <li>Windows (all versions)</li>
-      <li>PC</li>
-      <li>Pascal</li>
-      <li>AutoCAD</li>
-      <li>WordPress</li>      
-    </ul>
-    <img src="assets/images/ucberkeley-icon-263x64.png">
-    <p>University of California, Berkeley June 1988 - 1990</p>
-    <p>Bachelor of Arts Computer Science</p>
-    <p>Starting in a single high school programming class, it was quickly evident that I had a knack for figuring out the intracacies of computer programming. This degree still serves me well providing me with a phenomenal basis for all knowledge needed to keep up with computer technologies even today.</p>
-    <img src="assets/images/berkeley-extension-icon-282x52.png">
-    <p>University of California, Berkeley Extension 2000 - 2008</p>
-    <p>Certificate in Landscape Architecture</p>
-    <p>Berkeley Extension is no slouch when compared to it's official counterpart. I gained an excellent education in Landscape Architecture. This program is accredited and applies toward the education requirement for licensed Landscape Architects in California</p>  
-
+  <div id="education-and-skills" class="main-screen edu-and-skills">
+    <img class="scarf-img scarf-img__edu" srcset="assets/images/scarf-in-the-wind-640x305.png 640w, assets/images/scarf-in-the-wind-1024x489.png 1024w" alt="Blue and Purple scarf blowing in the wind.">
     <div class="titleblock">
       <h1 class="titleblock__title">Education and Skills</h1>
       <div class="decorative-line"></div>
       <h2 class="titleblock__summary">Android, JavaScript, Python, Git, NPM, NODE.js, Webpack, and so on...</h2>
     </div>
+    <p>I am constantly keeping my skills fresh. Here are a few of the classes I've taken most recently. Learning new technologies, constantly acquiring new skills is the only way to do the Software Engineer job, here are the systems I most often use:</p>
+    <div class="two-column-grid">
+      <div class="two-column-grid__first-col">   
+        <img src="assets/images/ucberkeley-icon-263x64.png">
+        <p>University of California, Berkeley June 1988 - 1990</p>
+        <p>Bachelor of Arts Computer Science</p>
+        <p>Starting in a single high school programming class, it was quickly evident that I had a knack for figuring out the intracacies of computer programming. This degree still serves me well providing me with a phenomenal basis for all knowledge needed to keep up with computer technologies even today.</p>
+        <img src="assets/images/berkeley-extension-icon-282x52.png">
+        <p>University of California, Berkeley Extension 2000 - 2008</p>
+        <p>Certificate in Landscape Architecture</p>
+        <p>Berkeley Extension is no slouch when compared to it's official counterpart. I gained an excellent education in Landscape Architecture. This program is accredited and applies toward the education requirement for licensed Landscape Architects in California</p>  
+      </div>
+      <div class="two-column-grid__second-col">
+        <div class="logo-columns">
+            <img class="logo-columns__first-logo width="50px" height="65px" src="assets/images/git-icon-910x380.png">           
+            <img class="logo-columns__second-logo width="50px" height="65px" src="assets/images/java-script-icon-512x512.png">
+            <img class="logo-columns__third-logo width="50px" height="65px" src="assets/images/python-icon-50x65.png">
+            <p class="logo-columns__first-desc">Git a Web Developer Job, Mastering the Modern Workflow by Brad Schiff - a lot of information that illustrates how to make the best, fastest, most efficien responsive websites.</p>
+            <p class="logo-columns__second-desc">JavaScript Algorithms and Data Structures by FreeCodeCamp - enjoyable set of exercises that can quickly get you up and running with JavaScript.</p>
+            <p class="logo-columns__third-desc">Python Programming by Derek Banas - great way to get familiar with Python and practice syntax.</p>
+        </div>
+        <div class="bullet-formatting">
+            <div class="bullet-formatting__desc">
+              <p>I've used many different programming languages, systems, tools, and prototypes, here are a few I've worked with the most recently:</p>
+            </div>
+            <div class="bullet-formatting__list">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Windows 10</li>
+                <li>Visual Studio</li>
+                <li>NPM, Node.js, Webpack</li>
+                <li>PC</li>
+                <li>Just In Mind Prototype Tool</li>
+                <li>WordPress</li>      
+              </ul>        
+            </div>
+          </div>
+      </div>
+      </div>
+
+    
   </div>
+
 
   <div id="website-design">
     <img class="scarf-img" srcset="assets/images/scarf-in-the-wind-640x305.png 640w, assets/images/scarf-in-the-wind-1024x489.png 1024w" alt="Blue and Purple scarf blowing in the wind.">
