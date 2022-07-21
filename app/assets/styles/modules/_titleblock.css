@@ -1,8 +1,15 @@
 .titleblock {
-    display: inline-block;
-    text-align: justify;
-    direction: rtl;
-    width: 97%;
+   /* for tiny and cell screens */
+   position: relative;
+   text-align: center;
+   padding-right: 20px;
+    
+   /* for tablet screens and bigger */
+   @mixin tabScreen {    
+        text-align: justify;
+        direction: rtl;
+        left: 0;
+    }
 
     &__title {
         font-weight:bolder;

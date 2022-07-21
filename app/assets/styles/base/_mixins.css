@@ -1,0 +1,23 @@
+/* below 320, cell phones, tiny tablets */
+
+
+/* tv, low res and small tablets */
+@define-mixin tvScreen {
+    @media (min-width: 320px) {
+        @mixin-content;
+    }
+}
+
+/* tablets portrait and landscape */
+@define-mixin tabScreen {
+    @media (min-width: 640px) {
+        @mixin-content;
+    }
+}
+
+/* hi res, computer and large screens */
+@define-mixin comScreen {
+    @media (min-width: 1008px) {
+        @mixin-content;
+    }
+}

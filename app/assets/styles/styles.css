@@ -1,8 +1,10 @@
 @import 'normalize.css';
 
 @import 'base/_variables.css';
+@import 'base/_mixins.css';
 @import 'base/_global.css';
 
 @import 'modules/_main-screen.css';
 @import 'modules/_decorative-line.css';
 @import 'modules/_titleblock.css';
+@import 'modules/_scarf-img.css';

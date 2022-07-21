@@ -1,0 +1,12 @@
+.scarf-img {
+    position:absolute;
+    display: inline-block;
+    opacity: 0.5;
+    width: 100%;
+
+    &__main-screen {
+        top: 0;
+        left: 0;
+        opacity: 0.3;
+    }
+}
