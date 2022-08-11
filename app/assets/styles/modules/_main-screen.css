@@ -5,6 +5,7 @@
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 
     &__categories {
         padding: 10px 20px;
@@ -20,6 +21,20 @@
         font-style: italic;
         margin: 0;
         padding: 10px;
+    }
+
+    &__web {
+        padding-top: 16px;
+    }
+
+    &__gap {
+        padding-top: 16px;
+        background-color: rgb(179, 188, 207, .3);
+    }
+
+    &__periodbio {
+        padding: 0 30px;
+        font-weight: 700;
     }
 
 }

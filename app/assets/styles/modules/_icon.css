@@ -1,0 +1,23 @@
+.icon {
+
+
+    &__gap {
+        width: 100px;
+        height: auto;
+        &--RA {
+            width: auto;
+            height: auto;
+        }
+    }
+
+    &__web {
+        width: 100px;
+        height: auto;
+    }
+
+    &__work {
+        width: 100px;
+        height: auto;
+    }
+
+}

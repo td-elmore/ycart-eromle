@@ -6,12 +6,30 @@
     &__top {
         top: 0;
         left: 0;
-        opacity: 0.3;
+        opacity: 0.11;
     }
 
     &__edu {
         top: 0;
         left: 0;
-        opacity: 0.3;
+        opacity: 0.13;
+    }
+
+    &__web {
+        top: 0;
+        left: 0;
+        opacity: 0.15;
+    }
+
+    &__gap {
+        top: 0;
+        left: 0;
+        opacity: 0.17;
+    }
+
+    &__work {
+        top: 0;
+        left: 0;
+        opacity: 0.19;
     }
 }
