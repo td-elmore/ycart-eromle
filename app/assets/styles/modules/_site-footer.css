@@ -1,0 +1,5 @@
+.site-footer {
+    background-color: rgba($darkBlue, .5);
+    color: white;
+    padding: .5rem 0;
+}
