@@ -1,0 +1,9 @@
+.get-in-touch {
+    &__footer {
+        display: block;
+
+        @mixin tabScreen {
+            display: inline;
+        }
+    }
+}
