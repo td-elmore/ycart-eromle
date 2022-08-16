@@ -20,4 +20,10 @@
         float: left;
         padding-right: 20px;
     }
+
+    a {
+        &.is-current-link {
+            color: #fabb69;
+        }
+    }
 }

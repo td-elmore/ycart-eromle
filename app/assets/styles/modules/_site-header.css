@@ -1,4 +1,7 @@
 .site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: rgba($darkBlue, .5);
     width: 100%;;
     padding: 30px;
@@ -6,6 +9,10 @@
     &__get-in-touch {
         position: absolute;
         top: 29px;
-        right: 15px;
+        right: 5rem;
+    }
+
+    &--dark {
+        background-color: rgba($darkBlue, .85);
     }
 }
