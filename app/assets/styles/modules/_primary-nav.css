@@ -1,4 +1,9 @@
 .primary-nav {
+    display: none;
+
+    @mixin tabScreen {
+        display: inline;
+    }
 
     &__pull-right {
         float: left;

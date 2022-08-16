@@ -1,18 +1,22 @@
 .two-column-grid {
-    padding: 20px 20px;  
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 25px;
+    /* for smallest screens, no columns */
+    padding: 30px;
 
+    @mixin tabScreen {
+        padding: 20px 20px;  
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 25px;
 
-    &__first-col {
-        grid-column: 1;
-        padding: 0 10px 0 0;
-    }
+        &__first-col {
+            grid-column: 1;
+            padding: 0 10px 0 0;
+        }
 
-    &__second-col {
-        grid-column: 2;
-        padding: 0 0 0 10px;
+        &__second-col {
+            grid-column: 2;
+            padding: 0 0 0 10px;
+        }
     }
 }
 
