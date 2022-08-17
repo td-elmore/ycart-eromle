@@ -5,6 +5,7 @@
     background-color: rgba($darkBlue, .5);
     width: 100%;;
     padding: 30px;
+    z-index: 2;
     
     &__get-in-touch {
         position: absolute;

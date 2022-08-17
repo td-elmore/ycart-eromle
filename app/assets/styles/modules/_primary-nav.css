@@ -23,7 +23,7 @@
 
     a {
         &.is-current-link {
-            color: #fabb69;
+            color: $highColor;
         }
     }
 }

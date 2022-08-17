@@ -1,5 +1,6 @@
 import throttle from 'lodash/throttle'
 import debounce from 'lodash/debounce'
+import { takeWhile } from 'lodash';
 
 class StickyHeader {
     constructor() {
@@ -7,6 +8,10 @@ class StickyHeader {
         this.mainScreens = document.querySelectorAll(".main-screen");
         this.browserHeight = window.innerHeight;
         this.previousScrollY = window.scrollY;
+        this.eduLink = document.getElementById("education-and-skills-link");
+        this.webLink = document.getElementById("website-design-link");
+        this.gapLink = document.getElementById("the-gap-link");
+        this.softwareLink = document.getElementById("software-engineer-link");
         this.events();
     }
 
@@ -14,8 +19,27 @@ class StickyHeader {
         window.addEventListener("scroll", throttle(() => this.runOnScroll(), 200));
         window.addEventListener("resize", debounce(() => {
             this.browserHeight = window.innerHeight;
-        }, 333))
+        }, 333));
+        
+        this.eduLink.addEventListener("click", this.eduHeaderClick);
+        this.webLink.addEventListener("click", this.webHeaderClick);
+        this.gapLink.addEventListener("click", this.gapHeaderClick);
+        this.softwareLink.addEventListener("click", this.softwareHeaderClick);
     }
+
+    eduHeaderClick(event) { 
+        window.scrollBy(0, 150);
+        console.log("edu header clicked");
+    }
+    webHeaderClick() { 
+        console.log("web header clicked");
+    }
+    gapHeaderClick() { 
+        console.log("gap header clicked");
+    }
+    softwareHeaderClick() { 
+        console.log("soft header clicked");
+    }    
 
     runOnScroll() {
         this.determineScrollDirection();
